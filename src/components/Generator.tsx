@@ -59,7 +59,7 @@ export default () => {
   }
 
   const smoothToBottom = useThrottleFn(() => {
-    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
+    // window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
   }, 300, false, true)
 
   const requestWithLatestMessage = async() => {
